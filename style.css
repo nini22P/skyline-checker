@@ -1,0 +1,54 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem 0 2rem;
+}
+
+
+.skyline {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 0.25rem;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right {
+    align-items: center;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.createdAt {
+    color: #797979;
+}
+
+a {
+    text-decoration: none;
+    color: #1E58F0;
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+}
